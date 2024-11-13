@@ -1,0 +1,9 @@
+Câu 1. Trong CSS, các thành phần của box model gồm:
+D. outer edge, margin area, boder, padding area, inner edge, content area
+Câu 2. Thứ tự các giá trị của padding hợp lý là:
+B. padding: top right bottom left;
+Câu 3. Khi tạo bóng cho hộp bằng thuộc tính box-shadow, giá trị của …………….. 
+là khoảng dịch của bóng sang phía phải so với hộp ban đầu, nếu giá trị này là âm, bóng sẽ được dịch sang phía trái.
+D. horizontal-offset
+Câu 4. Trong CSS, giá trị nào không thể thiết lập cho thuộc tính display?
+D. hidden

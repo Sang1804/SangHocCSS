@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { border: 1px solid red; }
+        h1 { border: 1px solid red; }
+        div { border: 1px solid red; }
+        p { border: 1px solid red; }
+        em { border: 1px solid red; }
+        * { padding: 3px}
+        p.content_box {
+            background: #c2f670;
+            width: 500px;
+            height: 150px;
+            padding: 20px;
+            border: 2px solid gray;
+            margin: 20px;
+        }
+        p.border_box {
+            background-color: aqua;
+            box-sizing: border-box;
+            width: 500px;
+            height: 150px;
+        }
+        .container {
+            width: 200px;
+            height: 50px;
+            overflow: hidden; /* Ẩn phần nội dung tràn */
+            border: 1px solid black;
+        }           
+        .box {
+            width: 200px; /* Giới hạn chiều rộng của div */
+            height: 50px; /* Giới hạn chiều cao của div */
+            border: 1px solid black;
+            overflow: visible; /* Cắt bớt phần nội dung tràn */
+            background-color: lightblue; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="tieu-de">Hi bac Teo!</h1>
+    <div>
+        <p>Mô hình cái hộp là cách thức tổ
+        chức của CSS để <em>hiển thị</em> các phần tử ra giao diện.</p>
+    </div>
+    <p class="content_box"></p>
+    <p class="border_box"></p>
+    <div class="container">
+        This is a very long text inside a container that has limited width.
+      </div>
+    <div class="box">
+        Đây là một đoạn văn bản rất dài, nó sẽ vượt quá chiều rộng của phần tử chứa và gây tràn nội dung.
+      </div>            
+</body>
+</html>
