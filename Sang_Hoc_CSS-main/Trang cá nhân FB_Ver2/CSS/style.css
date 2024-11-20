@@ -1,0 +1,8 @@
+/* dùng font Nunito trên mạng */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* Reset các thuộc tính mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

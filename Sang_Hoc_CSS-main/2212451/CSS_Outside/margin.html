@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ví dụ Content, Padding, và Margin</title>
+    <style>
+        /* Đặt màu nền cho body để dễ quan sát */
+        body {
+            background-color: #f0f0f0;
+        }
+
+        /* Cấu hình cho hộp */
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: yellow; /* Màu nền content */
+            padding: 20px; /* Màu nền padding sẽ hiển thị nhờ thuộc tính padding */
+            border: 2px solid pink; /* Đường viền giữa padding và content */
+            margin: 30px; /* Màu nền margin sẽ xuất hiện quanh toàn bộ hộp */
+        }
+        .content {
+            background-color: lightblue; /* Màu nền content */
+            height: 100%;
+        }
+
+        /* Để thấy rõ padding và margin */
+        .box-wrapper {
+            background-color: red; /* Màu nền của margin */
+        }
+
+        .box::before {
+            content: 'Padding';
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Thêm lớp bao ngoài để quan sát margin dễ hơn -->
+    <div class="box-wrapper">
+        <div class="box">
+            <div class="content">Nội dung</div>
+        </div>
+    </div>
+</body>
+</html>
