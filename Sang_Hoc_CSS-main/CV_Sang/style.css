@@ -24,6 +24,10 @@ body{
     display: flex;
     justify-content: end;
 }
+.avatar img:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
 .name{
     padding-left: 30px;
     border-left: 1px solid #000;
@@ -52,6 +56,10 @@ body{
     text-align: center;
     font-size: small;
     margin-right:20px;
+}
+.name .contact span:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
 }
 .name .contact li{
     padding: 5px 0;
@@ -117,4 +125,10 @@ h2{
     content: '';
     border-radius: 50%;
     left: -37px;
+}
+.exp h2:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.project h2:hover{
+    background-color: rgba(0, 0, 0, 0.7);
 }
